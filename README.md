@@ -1,4 +1,4 @@
-# E-Pharmacy-Management-system
+# E-Pharmacy-Management-System
 Ongoing Project
 
 ### Installation Guidlines
@@ -6,7 +6,7 @@ Ongoing Project
 #### STEP 1
 
  ```sh
-   git clone https://github.com/Invention-Hub/E-Pharmacy-Mangement-system.git
+   git clone https://github.com/Invention-Hub/E-Pharmacy-Application.git
    ```
 
 #### STEP 2
