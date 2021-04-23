@@ -14,6 +14,7 @@ import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
 import MainScreen from "./screens/MainScreen";
 import ContactScreen from "./screens/ContactScreen";
+import AboutScreen from "./screens/AboutScreen";
 import AllProductsScreen from "./screens/AllProductsScreen";
 // import 
 
@@ -31,7 +32,7 @@ function App() {
         <Route exact path="/allProducts" component={AllProductsScreen} />
           <Route exact path="/product" component={HomeScreen} />
           <Route exact path="/product/:id" component={ProductScreen} />
-          {/* <Route exact path="/about" component={About} /> */}
+          <Route exact path="/about" component={AboutScreen} />
           <Route exact path="/contact" component={ContactScreen} />
           <Route exact path="/cart" component={CartScreen} />
         </Switch>

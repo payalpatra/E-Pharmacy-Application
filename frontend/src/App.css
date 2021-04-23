@@ -1,7 +1,8 @@
-/* .app {
-  height: 80vh;
-} */
 
+
+.app{
+  font-family: 'Roboto', sans-serif!important;
+}
 
 .container-fluid .logo img {
   width: 13vw;

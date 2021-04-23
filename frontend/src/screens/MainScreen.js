@@ -1,28 +1,33 @@
-import React from 'react'
-import caro1  from "../images/caro1.jpg"
-import caro2 from "../images/caro2.jpg"
-import caro3 from "../images/caro3.jpg"
+import React from 'react';
+import caro1 from "../images/caro1.jpg";
+import caro2 from "../images/caro2.jpg";
+import caro3 from "../images/caro3.jpg";
+import caro4 from "../images/caro4.webp";
+import "../styles/MainScreen.css";
 
 
 function mainScreen() {
     return (
         <div>
-              <div className="container text-center ">
+            <div className="container text-center ">
                 <h1 className="mt-3 ">Welcome To E-Pharmacy App</h1>
                 <hr className="w-50 mx-auto" />
             </div>
 
-            <div className="container mt-4">
+            <div className="container mt-4" >
                 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={caro1} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item">
                             <img src={caro2} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
+                            <img src={caro1} className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item">
                             <img src={caro3} className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={caro4} className="d-block w-100" alt="..." />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
