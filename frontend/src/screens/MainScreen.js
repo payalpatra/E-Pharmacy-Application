@@ -4,6 +4,8 @@ import caro2 from "../images/caro2.jpg";
 import caro3 from "../images/caro3.jpg";
 import caro4 from "../images/caro4.webp";
 import "../styles/MainScreen.css";
+import allProductsData from "../Data/allProductsData";
+import Card from "../components/Card";
 
 
 function mainScreen() {
@@ -42,6 +44,32 @@ function mainScreen() {
                     </button>
                 </div>
             </div>
+
+            <div className="homescreen" style={{marginTop:"100px"}}>
+                <div className="container text-center ">
+                    <h1 className="mt-3 ">Explore By</h1>
+                    <hr className="w-50 mx-auto" />
+                </div>
+
+                <div className="homescreen__products">
+                    {allProductsData.map((val, index) => {
+                        return (
+                            <Card
+                                key={index}
+                                imgsrc={val.imgsrc}
+                                title={val.title}
+                                info={val.info}
+                                link={val.link}
+                                id={val.id}
+
+                            />
+                        )
+
+                    })}
+
+                </div>
+            </div>
+
         </div>
     )
 }

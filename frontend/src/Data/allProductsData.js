@@ -21,7 +21,7 @@ const productsData = [
         imgsrc: diabetes,
         title: "Diabetes",
         info: "Medicines on Diabetes",
-        link: "/products/diabetes"
+        link: "/product"
     },
     {
         id: "3",

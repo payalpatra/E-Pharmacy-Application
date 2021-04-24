@@ -12,7 +12,7 @@ function Card({imgsrc, title, info,link,id}) {
           <p style={{fontSize:"15px"}} className="info__description ">{info}</p>
   
           {/* <Link to={`/product/{id}`} className="info__button"> */}
-          <Link to="/product" className="info__button">
+          <Link to={link} className="info__button">
             Shop Now
           </Link>
         </div>

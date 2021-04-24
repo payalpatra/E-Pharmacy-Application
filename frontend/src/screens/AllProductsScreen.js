@@ -26,8 +26,6 @@ function AllProductsScreen() {
 
                 })}
 
-
-
             </div>
 
 
