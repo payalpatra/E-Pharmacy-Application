@@ -18,6 +18,14 @@ function ContactScreen() {
             };
         });
     };
+
+    const formSubmit = (e) => {
+        e.preventDefault();
+        alert(
+            `Your Full Name is ${data.fullName}. Your Email address ${data.email} ,Your Gender is ${data.gender}, Your City is ${data.city} ,Your message is ${data.message}. Thank For Your Response`
+        );
+    };
+
     const PostData = async (e) => {
         e.preventDefault();
         const { fullName, email, message, city } = data;
@@ -39,13 +47,7 @@ function ContactScreen() {
         }
     }
 
-    // const formSubmit = (e) => {
-    //     e.preventDefault();
-    //     alert(
-    //         `Your Full Name is ${data.fullName}. Your Email address ${data.email} ,Your Gender is ${data.gender}, Your City is ${data.city} ,Your message is ${data.message}. Thank For Your Response`
-    //     );
-    // };
-
+  
     return (
         <div>
             <section className="main_heading pt-5">
@@ -56,7 +58,7 @@ function ContactScreen() {
                 <div className="container my-5">
                     <div className="row">
                         <div className="col-xxl-8 col-10 col-md-8 mx-auto">
-                            <form method="POST">
+                            <form onSubmit={formSubmit} method="POST">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputtext1"
                                         className="form-label">Name</label>
@@ -91,14 +93,14 @@ function ContactScreen() {
                                             value={data.gender}
                                             onChange={InputEvent}
                                             required="" />
-                                        <label className="form-check-label" for="inlineRadio1">Female</label>
+                                        <label className="form-check-label" htmlFor="inlineRadio1">Female</label>
                                     </div>
                                     <div className="form-check form-check-inline">
                                         <input className="form-check-input" type="radio" name="gender" id="inlineRadio2"
                                             value={data.gender}
                                             onChange={InputEvent}
                                             required="" />
-                                        <label className="form-check-label" for="inlineRadio2">Male</label>
+                                        <label className="form-check-label" htmlFor="inlineRadio2">Male</label>
                                     </div>
                                 </div>
                                 <div className="mb-3">
@@ -140,7 +142,7 @@ function ContactScreen() {
                                 <div className="mb-3">
                                     <div className="form-file">
                                         <input type="file" className="form-file-input" id="customFile" required="" />
-                                        <label className="form-file-label" for="customFile">
+                                        <label className="form-file-label" htmlFor="customFile">
                                             <span className="form-file-text">Choose file...</span>
                                             <span className="form-file-button">Browse</span>
                                         </label>

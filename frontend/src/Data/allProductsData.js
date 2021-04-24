@@ -1,5 +1,5 @@
 import dermatology from "../images/derma1.jpg";
-import diabetes from "../images/diabet3.jpg";
+import diabetics from "../images/diabet3.jpg";
 import depression from "../images/depression.jpg";
 import dental from "../images/dental.jpg";
 import eyeCare from "../images/eye1.jpg";
@@ -18,9 +18,9 @@ const productsData = [
     },
     {
         id: "2",
-        imgsrc: diabetes,
-        title: "Diabetes",
-        info: "Medicines on Diabetes",
+        imgsrc: diabetics,
+        title: "Diabetics",
+        info: "Medicines on Diabetics",
         link: "/product"
     },
     {

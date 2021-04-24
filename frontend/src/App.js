@@ -16,6 +16,7 @@ import MainScreen from "./screens/MainScreen";
 import ContactScreen from "./screens/ContactScreen";
 import AboutScreen from "./screens/AboutScreen";
 import AllProductsScreen from "./screens/AllProductsScreen";
+import AdminScreen from "./screens/AdminScreen";
 // import 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/product/:id" component={ProductScreen} />
           <Route exact path="/about" component={AboutScreen} />
           <Route exact path="/contact" component={ContactScreen} />
+          <Route exact path="/admin" component={AdminScreen} />
           <Route exact path="/cart" component={CartScreen} />
         </Switch>
       </main>
