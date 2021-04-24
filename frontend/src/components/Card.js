@@ -13,7 +13,7 @@ function Card({imgsrc, title, info,link,id}) {
   
           {/* <Link to={`/product/{id}`} className="info__button"> */}
           <Link to="/product" className="info__button">
-            View
+            Shop Now
           </Link>
         </div>
       </div>
