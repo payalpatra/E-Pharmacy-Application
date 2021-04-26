@@ -1,10 +1,10 @@
-import Biotin from './img/hair/bio.jpeg'
-import min from './img/hair/min.jpeg'
+import Biotin from './images/hair/bio.jpeg'
+import min from '../images/hair/min.jpeg'
 
 const hairloss = [
     {
         id: "1",
-        imgsrc: "Biotin",
+        imgsrc: Biotin,
         Name: "Biotin",
         Indications: "Biotin is a dietary supplement prescribed to prevent and treat a rare biotin deficiency which is associated with malnutrition, pregnancy, long-term tube feeding and rapid weight loss, It assists in various biochemical pathways as a cofactor that break down the body’s carbohydrate, protein and fat, Biotin is used for conditions like hair loss, brittle nails, conjunctivitis, and seborrheic dermatitis in children, It is also used in some metabolic disorders. However, its effectiveness in these conditions has not been established.",
         Dosage: "As directed by physician",
@@ -13,7 +13,7 @@ const hairloss = [
     },
     {
         id: "2",
-        imgsrc: "min",
+        imgsrc: min,
         Name: "Minoxidil Topical ",
         Indications: "This medication is a vasodilator, prescribed for hair loss.",
         Dosage: "Topical- Male pattern baldness: As 2% or 5% solution: Apply 1 mL twice daily.",
@@ -21,3 +21,4 @@ const hairloss = [
         Price: "₹705.00",
     },
 ]
+export default hairloss;
