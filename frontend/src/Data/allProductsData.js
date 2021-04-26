@@ -63,7 +63,7 @@ const productsData = [
         imgsrc: hairFall,
         title: "Hair Fall",
         info: "Medicines on Hair Fall",
-        link: "/Dermatology"
+        link: "/products/hairloss"
     },
     // {
     //     imgsrc: bloodPressure,

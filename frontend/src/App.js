@@ -16,6 +16,8 @@ import MainScreen from "./screens/MainScreen";
 import ContactScreen from "./screens/ContactScreen";
 import AboutScreen from "./screens/AboutScreen";
 import AllProductsScreen from "./screens/AllProductsScreen";
+import DermotologyScreen from "./screens/DermotologyScreen";
+import HairFallScreen from "./screens/HairFallScreen"
 import AdminScreen from "./screens/AdminScreen";
 // import 
 
@@ -33,6 +35,9 @@ function App() {
         <Route exact path="/allProducts" component={AllProductsScreen} />
           <Route exact path="/product" component={HomeScreen} />
           <Route exact path="/product/:id" component={ProductScreen} />
+          <Route exact path="/products/dermatology" component={DermotologyScreen} />
+          <Route exact path="/products/hairloss" component={HairFallScreen} />
+
           <Route exact path="/about" component={AboutScreen} />
           <Route exact path="/contact" component={ContactScreen} />
           <Route exact path="/admin" component={AdminScreen} />
