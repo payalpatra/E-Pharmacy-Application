@@ -1,4 +1,4 @@
-import Adap from "../imgages/adap,jpg"
+import Adap from "../images/adap.jpg"
 import Cala from "../images/calamine.jpg";
 import dim from "../images/dim.jpg";
 import ss from "../images/ss.jpg";

@@ -1,5 +1,5 @@
-import Biotin from './images/hair/bio.jpeg'
-import min from '../images/hair/min.jpeg'
+import Biotin from '../images/bio.jpeg'
+import min from '../images/min.jpeg'
 
 const hairloss = [
     {
