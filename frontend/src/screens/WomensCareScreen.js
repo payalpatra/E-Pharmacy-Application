@@ -1,19 +1,19 @@
 import React from 'react'
 import StaticProduct from "../components/StaticProduct"
-import hairloss from "../Data/hairloss";
 import allProductsData from "../Data/allProductsData";
+import womenhealth from "../Data/womenHealth";
 
-function HairFallScreen() {
+function WomensCareScreen() {
     return (
         <div>
       <div className="homescreen">
         <div className="container text-center">
-          <h1 className="mt-3">{allProductsData[7].title}</h1>
+          <h1 className="mt-3">{allProductsData[6].title}</h1>
           <hr className="w-25 mx-auto" />
         </div>
         <div className="homescreen__products">
           {
-            hairloss.map((product) => (
+            womenhealth.map((product) => (
               <StaticProduct
                 key={product._id}
                 imgsrc={product.imgsrc}
@@ -32,4 +32,4 @@ function HairFallScreen() {
     )
 }
 
-export default HairFallScreen
+export default WomensCareScreen

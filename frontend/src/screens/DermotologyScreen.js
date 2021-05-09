@@ -19,7 +19,7 @@ function StaticScreen() {
                 imgsrc={product.imgsrc}
                 title={product.title}
                 indication={product.indication}
-                dosage={product.dosage}
+                Dosage={product.Dosage}
                 sideEffects={product.sideEffects}
                 price={product.price}
                 productId={product._id}

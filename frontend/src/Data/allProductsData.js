@@ -28,35 +28,35 @@ const productsData = [
         imgsrc: depression,
         title: "Depression",
         info: "Medicines on Depression",
-        link: "/Dermatology"
+        link: "/products/depression"
     },
     {
         id: "4",
         imgsrc: dental,
         title: "Dental",
         info: "Medicines on Dental",
-        link: "/Dermatology"
+        link: "/products/dental"
     },
     {
         id: "5",
         imgsrc: eyeCare,
         title: "Eye Care",
         info: "Medicines on Eye Care",
-        link: "/Dermatology"
+        link: "/products/eyecare"
     },
     {
         id: "6",
         imgsrc: fracture,
         title: "Fracture",
         info: "Medicines on Fracture",
-        link: "/Dermatology"
+        link: "/products/fracture"
     },
     {
         id: "7",
         imgsrc: womensCare,
         title: "Women's Care",
         info: "Medicines Women's Care",
-        link: "/Dermatology"
+        link: "/products/womensCare"
     },
     {
         id: "8",
